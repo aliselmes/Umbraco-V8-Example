@@ -64,4 +64,9 @@
       <file name="/umbraco/lib/tinymce/plugins/noneditable/plugin.min.js" />
     </files>
   </item>
+  <item key="L2Nzcy9zdHlsZXMuY3NzOw" file="C:\Users\aselm\source\repos\Umbraco-v8-Example\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_98c81fa9a9ba4a2eb89b62263949ee46.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/css/styles.css" />
+    </files>
+  </item>
 </map>
