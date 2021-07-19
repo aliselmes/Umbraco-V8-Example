@@ -359,12 +359,19 @@
     <Content Include="Views\Search.cshtml" />
     <Content Include="Views\Contact.cshtml" />
     <Content Include="Views\Partials\PageHeader.cshtml" />
+    <Content Include="Views\Partials\Grid\Clean.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CleanBlog.Core\CleanBlog.Core.csproj">
+      <Project>{387bd46e-97d1-4dc7-895c-6e31e75243cb}</Project>
+      <Name>CleanBlog.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
