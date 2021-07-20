@@ -1,0 +1,46 @@
+﻿@inherits UmbracoViewPage<ContactViewModel>
+
+@using CleanBlog.Core.ViewModels
+@using CleanBlog.Core.Controllers
+
+<div id="form-outer" class="mb-4">
+    @using (Ajax.BeginForm("SubmitForm", "ContactSurface", new AjaxOptions()
+    {
+        UpdateTargetId = "form-result",
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        OnSuccess = "contactForm.showResult",
+        OnFailure = "contactForm.showResult"
+    }, new { id = "contact-form" }))
+    {
+
+        @Html.HiddenFor(m => m.ContactFormId)
+
+        <div class="form-floating">
+            <div class="form-group floating-label-form-group controls">
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control py-3", placeholder = "Enter your name..." })
+                @Html.ValidationMessageFor(m => m.Name)
+            </div>
+        </div>
+        <div class="form-floating my-3">
+            <div class="form-group floating-label-form-group controls">
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control py-3", placeholder = "Enter your email..." })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+        </div>
+        <div class="form-floating">
+            <div class="form-group floating-label-form-group controls">
+                @Html.LabelFor(m => m.Message)
+                @Html.TextAreaFor(m => m.Message, new { @class = "form-control py-3", placeholder = "Enter your message...", rows = "6" })
+                @Html.ValidationMessageFor(m => m.Message)
+            </div>
+        </div>
+        <br />
+        <!-- Submit Button-->
+        <button type="submit" class="btn btn-primary text-uppercase contact-submit" id="submitButton" >Send</button>
+    }
+
+</div>
+<div id="form-result"></div>
