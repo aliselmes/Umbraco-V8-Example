@@ -6,4 +6,4 @@
 
 @Html.Partial("PageHeader")
 <!-- Main Content-->
-@Html.Partial("LatestArticles")
+@Html.CachedPartial("LatestArticles", Model, 3600, true)

@@ -69,4 +69,18 @@
       <file name="/css/styles.css" />
     </files>
   </item>
+  <item key="L3NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLm1pbi5qczsvc2NyaXB0cy9qcXVlcnkudmFsaWRhdGUudW5vYnRydXNpdmUubWluLmpzOy9zY3JpcHRzL2pxdWVyeS51bm9idHJ1c2l2ZS1hamF4Lm1pbi5qczsvc2NyaXB0cy9Db250YWN0Rm9ybS5qczs" file="C:\Users\aselm\source\repos\Umbraco-v8-Example\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_fa8363d24b1941ebb8f84233ad10ec4c.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/scripts/jquery.validate.min.js" />
+      <file name="/scripts/jquery.validate.unobtrusive.min.js" />
+      <file name="/scripts/jquery.unobtrusive-ajax.min.js" />
+      <file name="/scripts/ContactForm.js" />
+    </files>
+  </item>
+  <item key="L3NjcmlwdHMvbGF6eXNpemVzLm1pbi5qczsvc2NyaXB0cy9scy51bnZlaWxob29rcy5taW4uanM7" file="C:\Users\aselm\source\repos\Umbraco-v8-Example\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_98dd397172324496bcbe5a5ffacf89dc.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/scripts/lazysizes.min.js" />
+      <file name="/scripts/ls.unveilhooks.min.js" />
+    </files>
+  </item>
 </map>
